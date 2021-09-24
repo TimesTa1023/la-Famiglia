@@ -617,6 +617,21 @@
               </div>
             </div><!-- End testimonial item -->
 
+            <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img  src="{{asset('img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
+                  <h3>Yesmine Ben Mustpha</h3>
+                  <h4>Web Designer</h4>
+                </div>
+              </div><!-- End testimonial item -->
+
+
+
             <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
@@ -624,11 +639,11 @@
                   Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
               </div>
-            </div>End testimonial item -->
+            </div> !--End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -869,31 +884,8 @@
 
 
 
-              <form action="/contact" method="post" role="form" class="php-email-form">
-                  @csrf
-                  <div class="row">
-                      <div class="col-md-6 form-group">
-                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                      </div>
-                      <div class="col-md-6 form-group mt-3 mt-md-0">
-                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                      </div>
-                  </div>
-                  <div class="form-group mt-3">
-                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="form-group mt-3">
-                      <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="my-3">
-                      <div class="loading">Loading</div>
-                      <div class="error-message"></div>
-                      <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
 
-
+          @yield('content')
 
 
 
